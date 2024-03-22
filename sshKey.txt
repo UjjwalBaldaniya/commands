@@ -1,0 +1,38 @@
+Ssh
+
+
+Create SSH key
+
+Steps :
+
+1. cd .ssh
+
+2. ssh-keygen -t rsa
+
+3. id_rsa_sairam_github (id_rsa_milan_bit_bucket/id_rsa_ajaybhayani_github)
+
+4. Press Enter
+
+5. ls
+
+6. select id_rsa_sairam_github.pub
+
+7. cat id_rsa_sairam_github.pub ====> SHH key
+
+8. code config
+
+#Sairam github
+
+Host github.com-sairamtagline
+
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_rsa_sairam_github
+IdentitiesOnly yesÏ
+
+
+// FIND CONFIG FOR
+
+Enter in terminal
+Cd .ssh
+Code config
