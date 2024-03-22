@@ -1,0 +1,8 @@
+Create Json-server
+
+Create db.json file
+Inside package.json file > "scripts": {
+"serve-json": "json-server --watch db.json --port 4000"
+},
+npm i json-server
+npm run serve-json

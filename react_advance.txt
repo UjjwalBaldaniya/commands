@@ -1,0 +1,33 @@
+React advance topics
+
+
+# Advances
+1. Formik.
+2. Ramda Js.
+3. AWS Cognito.
+4. Sign in with (Google, Twitter, Github, etc).
+5. Payment gateway (Stripe Recommended).
+6. Dynamic Form.
+7. GraphQL(Apollo graphQL recommended, Hasura graphQL).
+8. Sockets.
+9. Redux saga.
+10. React -hook-form (Get Started).
+11. Redux-form (Getting Started With redux-form).
+12. Recoil (State management)(Recommended)
+13. Relay (React/Relay)
+14. PWA (Recommended).
+15. Firebase(Real-time, Authentication).	
+16. Husky+eslint+prettier(Setup)(Recommended)
+17. Portal(createPortal)
+18. Custom hooks (useHooks)
+19. StoryBook
+20. Redux toolkit
+
+
+# UI/UX(CSS)
+1. React Bootstrap.
+2. Bootstrap(Basic).
+3. Material(Basic).
+4. Antd(Basic).
+5. Tailwind(Basic)(Setup recommended).
+6. Telerik (exclude).

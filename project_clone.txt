@@ -1,0 +1,17 @@
+Project Clone
+
+
+Code .ssh
+Code for start code in vs code
+
+config = insert config
+id_rsa = file key-code insert
+id_rsa.pub = file key-code insert
+
+git clone “clone url”
+
+// FIND CONFIG FOR
+
+Enter in terminal 
+Cd .ssh
+Code config

@@ -1,0 +1,36 @@
+React JS demo exercise
+
+Task description:
+
+You need to make a test system that has two types of users: teachers and students. The main goal is for teachers to make multiple choice question tests on different subjects for the students to take.
+Views:
+
+Authentication views:
+Signup and sign in views of the Users (students/teachers)
+Forgot password and set new password features for users
+
+Teacher views:
+After login as teacher there should be 3 views in sidebar: Dashboard, Students, Profile
+Dashboard: 
+The Dashboard will show a list of all the exams the teacher has created.
+They can create new exams by clicking the “create exam” button or edit exams they have already made.
+Create exam: Exams will have 15 questions with options to navigate between them using “next” and “previous” buttons. Each question will have 4 options and a field for the answer, as well as a “notes” field for the whole exam.
+Edit exam: Users can edit the exam that they have created and they can go through the same navigation forms.
+For the creating and editing questions, There should be a save button. If there is no change in a particular question or answer then they can navigate through it without saving. Otherwise they have to first save the changes by clicking the “save” button.
+The final question will have a “submit” button to create or edit the exam.
+Student: 
+In this view there will be a list of students with their exam status and results.
+		
+Profile
+Allow teachers to change their password.
+
+Student views:
+After login as student there should be 3 views in sidebar: Dashboard, Profile
+Dashboard:
+The Dashboard will show a list of available exams, and each exam has a button to start the exam.
+Students can only take an exam once, so the button to start an exam will be disabled after they’ve completed it.
+Once they click the start exam button, the student will see 7 random questions from the 15 that were created by the teacher.They can navigate between the questions using “next” and “previous” buttons and select one option for each question.
+On the last question, there will be a “submit and review” button. When clicked, the student will be taken to a page showing all 7 questions with an “edit answer” button for each. They can change their answers by clicking the “edit answer” button. After reviewing and making any necessary changes, the student can submit the exam using a “submit” button on that review page, and they will be redirected back to the dashboard.
+If the student has already taken the exam, the percentage result for that exam will be shown.
+Profile:
+Allow students to view and edit their personal details and change their password.
